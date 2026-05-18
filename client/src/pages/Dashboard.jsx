@@ -2,6 +2,7 @@ import React,{useState, useEffect} from 'react'
 import { dummyAdminDashboardData, dummyEmployeeDashboardData } from '../assets/assets'
 import Loading from '../components/Loading'
 import AdminDashboard from '../components/AdminDashboard'
+import EmployeeDashboard from '../components/EmployeeDashboard'
 
 const Dashboard = () => {
   const [data, setData] = useState(null)
