@@ -56,7 +56,7 @@ const AttendanceHistory = ({history}) => {
                             {record.status}
                           </span>
                         </td>
-                      </tr>
+                      </tr> 
                     )
                   })
                 )
